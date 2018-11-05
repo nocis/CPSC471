@@ -1,9 +1,10 @@
+build
+
+.atom-build.js
 
 # Ninja #############################
 .ninja_deps
 .ninja_log
-rules.ninja
-build.ninja
 
 # Cmake #############################
 CMakeCache.txt
@@ -15,6 +16,9 @@ cmake_install.cmake
 install_manifest.txt
 compile_commands.json
 CTestTestfile.cmake
+
+rules.ninja
+build.ninja
 
 # C++ ###############################
 # Prerequisites
